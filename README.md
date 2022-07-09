@@ -1,3 +1,5 @@
 # C_book
-#int_to_char 策肈6.1
-パ块 计┪じ 硓筁ASCII絏暗if else耞
+#int_to_char 策肈6.1  
+パ块 计┪じ 硓筁ASCII絏暗if else耞  
+#scanf_printf_length  
+代刚printf㎝scanfint籔flot    
