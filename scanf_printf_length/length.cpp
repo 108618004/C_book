@@ -37,17 +37,17 @@ int main(void)
     printf("輸入的%%f值為:%f \n",f2);
     printf("%%.2f的值為:%.2f \n",f2);
 
-    printf("輸入一個float(%%4.1f)值:");
-    scanf("%3.1f",&f3);
-    printf("輸入%%3.1f轉%%4.1f值為:%4.1f \n",f3);
-    printf("%%.2f的值為:%.2f \n",f3);
-    printf("%%f的值為:%.2f \n",f3);
+    printf("輸入一個float(%%4.2f)值:");
+    scanf("%3.2f",&f3);
+    printf("輸入%%3.1f轉%%4.2f值為:%4.2f \n",f3);
+    printf("%%.2f的值為:%.1f \n",f3);
+    printf("%%f的值為:%ff \n",f3);
 // 暫存器存了多輸入的值(%3.1f輸入4.1位數)
     fflush(stdin);
-    printf("(再一次)輸入一個float(%%4.1f)值:");
+    printf("(再一次)輸入一個float(%%4.2f)值:");
     scanf("%3f",&f3);
-    printf("輸入%%3f轉%%4.1f值為:%4.1f \n",f3);
-    printf("%%.2f的值為:%.2f \n",f3);
-    printf("%%f的值為:%.2f \n",f3);
+    printf("輸入%%3f轉%%4.2f值為:%4.2f \n",f3);
+    printf("%%.1f的值為:%.1f \n",f3);
+    printf("%%f的值為:%ff \n",f3);
 // scanf:可限制長度但不可以限制精度;    
 }
