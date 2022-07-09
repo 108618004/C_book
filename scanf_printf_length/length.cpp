@@ -49,5 +49,5 @@ int main(void)
     printf("輸入%%3f轉%%4.2f值為:%4.2f \n",f3);
     printf("%%.1f的值為:%.1f \n",f3);
     printf("%%f的值為:%ff \n",f3);
-// scanf:可限制長度但不可以限制精度;    
+// scanf:可限制長度但不可以限制精度;
 }
